@@ -38,6 +38,6 @@ select* from tb_produtos where preco > 50;
 
 select* from tb_produtos where preco between 3 and 60;
 
-select* from tb_produtos where nome like "%B";
+select* from tb_produtos where nome like "%B%";
 
 select * from tb_produtos inner join tb_categoria on tb_categoria.id = tb_produtos.categoria_id;
